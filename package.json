@@ -1,0 +1,67 @@
+{
+  "name": "nvidia-green-pro-theme",
+  "displayName": "NVIDIA Green Pro Theme",
+  "description": "Production-level NVIDIA-inspired dark and light VS Code themes with comprehensive UI, syntax, semantic token, terminal, diff, Git, notebook, and debugging colors.",
+  "version": "1.0.0",
+  "publisher": "yashk",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "nvidia",
+    "green",
+    "dark",
+    "light",
+    "theme",
+    "color-theme",
+    "cuda",
+    "ai",
+    "developer",
+    "syntax"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#0B0F0C",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yash-Kavaiya/nvidia-green-pro-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yash-Kavaiya/nvidia-green-pro-theme/issues"
+  },
+  "homepage": "https://github.com/Yash-Kavaiya/nvidia-green-pro-theme#readme",
+  "qna": false,
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NVIDIA Green Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nvidia-green-pro-dark-color-theme.json"
+      },
+      {
+        "label": "NVIDIA Green Pro Light",
+        "uiTheme": "vs",
+        "path": "./themes/nvidia-green-pro-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "validate": "node scripts/validate-themes.mjs",
+    "package": "npm run validate && vsce package",
+    "package:pre-release": "npm run validate && vsce package --pre-release",
+    "publish:marketplace": "npm run validate && vsce publish",
+    "publish:marketplace:pat": "npm run validate && vsce publish -p $VSCE_PAT"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  }
+}
