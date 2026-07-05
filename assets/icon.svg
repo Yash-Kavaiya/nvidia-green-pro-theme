@@ -1,6 +1,1 @@
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NVIDIA Green Pro Theme icon">
-  <rect width="128" height="128" rx="18" fill="#0B0F0C"/>
-  <rect x="6" y="6" width="116" height="116" rx="14" fill="none" stroke="#76B900" stroke-width="6"/>
-  <path d="M34 98V30h14l36 44V30h14v68H84L48 54v44H34Z" fill="#76B900"/>
-  <path d="M47 33l45 58" stroke="#B8FF5C" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" aria-label="NVIDIA Green Pro Theme icon" role="img" viewBox="0 0 128 128"><rect width="128" height="128" fill="#0B0F0C" rx="18"/><rect width="116" height="116" x="6" y="6" fill="none" stroke="#76B900" stroke-width="6" rx="14"/><path fill="#76B900" d="M34 98V30h14l36 44V30h14v68H84L48 54v44H34Z"/><path stroke="#B8FF5C" stroke-linecap="round" stroke-width="5" d="M47 33l45 58" opacity=".9"/></svg>
