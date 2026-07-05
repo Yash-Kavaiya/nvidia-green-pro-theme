@@ -8,9 +8,9 @@ This project is ready to publish as a VS Code Marketplace color theme extension.
 - Display name: `NVIDIA Green Pro Theme`
 - Version: `1.0.0`
 - GitHub repository: `https://github.com/Yash-Kavaiya/nvidia-green-pro-theme`
-- Current package publisher field: `yashk`
+- Current package publisher field: `yash-kavaiya`
 
-The `publisher` field in `package.json` must exactly match the VS Code Marketplace publisher ID that owns the Azure DevOps token.
+The `publisher` field in `package.json` now matches the VS Code Marketplace publisher ID: `yash-kavaiya`.
 
 ## Required Marketplace credential
 
@@ -58,7 +58,7 @@ npm run publish:marketplace
 After publishing, verify the listing:
 
 ```bash
-npx vsce show <publisher-id>.nvidia-green-pro-theme
+npx vsce show yash-kavaiya.nvidia-green-pro-theme
 ```
 
 Then install directly from Marketplace in VS Code and confirm both themes appear:

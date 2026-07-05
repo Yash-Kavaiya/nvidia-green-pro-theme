@@ -3,7 +3,7 @@
   "displayName": "NVIDIA Green Pro Theme",
   "description": "Production-level NVIDIA-inspired dark and light VS Code themes with comprehensive UI, syntax, semantic token, terminal, diff, Git, notebook, and debugging colors.",
   "version": "1.0.0",
-  "publisher": "yashk",
+  "publisher": "yash-kavaiya",
   "license": "MIT",
   "engines": {
     "vscode": "^1.92.0"
