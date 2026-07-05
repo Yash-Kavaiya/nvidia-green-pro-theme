@@ -6,6 +6,12 @@ GitHub: https://github.com/Yash-Kavaiya/nvidia-green-pro-theme
 
 This extension is not affiliated with or endorsed by NVIDIA. It uses an NVIDIA-inspired green/black visual direction for developer ergonomics.
 
+## Preview
+
+![NVIDIA Green Pro Light theme preview in VS Code](assets/screenshots/nvidia-green-pro-light-preview.png)
+
+*NVIDIA Green Pro Light shown in VS Code with HTML/JavaScript syntax highlighting, Explorer, minimap, status bar, and side panels styled by the theme.*
+
 ## Included themes
 
 - **NVIDIA Green Pro Dark** — deep black/green UI with high-contrast readable syntax.
