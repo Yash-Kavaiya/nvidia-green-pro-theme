@@ -8,9 +8,9 @@ This extension is not affiliated with or endorsed by NVIDIA. It uses an NVIDIA-i
 
 ## Preview
 
-![NVIDIA Green Pro Light theme preview in VS Code](assets/screenshots/nvidia-green-pro-light-preview.png)
+![NVIDIA Green Pro Dark theme preview in VS Code](assets/screenshots/nvidia-green-pro-dark-preview.png)
 
-*NVIDIA Green Pro Light shown in VS Code with HTML/JavaScript syntax highlighting, Explorer, minimap, status bar, and side panels styled by the theme.*
+*NVIDIA Green Pro Dark shown in VS Code with HTML/JavaScript syntax highlighting, Explorer, minimap, status bar, and side panels styled by the theme.*
 
 ## Included themes
 
